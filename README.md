@@ -13,6 +13,15 @@ Proje toplamda 6 katmandan oluşmaktadır.
 * Background Katmanı: Background katmanı uçlardan ya da client'lardan gelen isteklere göre arka planda çalışacak ve excel oluşturma, clientlara gerçek zamanlı mesaj gönderme, kuyruk yönetimi gibi süreçleri yönetecek şekilde hazırlanan katmandır.
 * SignalR Katmanı: Proje içerisindeki haberleşme yapılarını(Hub vs) yönetecek katmandır.
 
+## Tekonolojiler
+Proje içerisinde şu teknolojiler kullanılmıştır.
+* .Net 8.0
+* .Net In Memory Kuyruk Yapısı (System.Threading.Channels)
+* Canlı Haberleşme (Microsoft.AspNetCore.SignalR.Core)
+* Dosya Yönetimi (Microsoft.Extensions.FileProviders)
+* Excel İşlemleri (ClosedXML.Excel)
+* Web Projesi (Microsoft.AspNetCore.Mvc)
+* Bootstrap
 
 ## Özellikler
 - **Channel API**: Verileri asenkron olarak kuyruk sistemine gönderme.
